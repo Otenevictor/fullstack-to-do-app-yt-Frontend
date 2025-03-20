@@ -1,0 +1,67 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  /* min-width: 320px;
+  min-height: 100vh; */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.cotainer{
+max-width: 600px;
+margin: auto;
+padding: 0 1rem;
+}
+
+.top {
+margin-top: 1rem;
+display: flex;
+gap: 1rem;
+justify-content: center;
+}
+
+input{
+  border: none;
+  outline:none;
+  width: 400px;
+  padding: 0 0.5rem;
+  border-bottom: 1px solid #000;
+}
+
+.add {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+.todo{
+  position: relative;
+  margin-top: 1rem;
+background-color: #000;
+color: #fff;
+padding: 1.5rem 3rem;
+border-radius: 5px;
+}
+
+.icons{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon{
+  cursor: pointer;
+  font-size: 20px;
+}
